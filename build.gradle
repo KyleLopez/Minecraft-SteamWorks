@@ -18,7 +18,7 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.2-1.0"
-group= "com.talila.MinecraftSteamWorks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.talila.minecraftsteamworks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MinecraftSteamWorks"
 
 minecraft {
