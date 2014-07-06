@@ -1,6 +1,6 @@
-package com.talila.minecraftsteamworks.utility;
+package com.talila.minecraftsteamworks.utils;
 
-import com.talila.minecraftsteamworks.reference.Reference;
+import com.talila.minecraftsteamworks.references.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
