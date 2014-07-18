@@ -2,6 +2,7 @@ package com.talila.minecraftsteamworks.init;
 
 import com.talila.minecraftsteamworks.items.ItemClayBucket;
 import com.talila.minecraftsteamworks.items.ItemMSW;
+import com.talila.minecraftsteamworks.items.ItemUnfiredClayBucket;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -9,8 +10,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
  */
 public class ModItems {
    public static final ItemMSW clayBucket = new ItemClayBucket();
+   public static final ItemMSW unfiredClayBucket = new ItemUnfiredClayBucket();
 
    public static void init() {
       GameRegistry.registerItem(clayBucket, "clayBucket");
+      GameRegistry.registerItem(unfiredClayBucket, "unfiredClayBucket");
    }
 }
